@@ -12,3 +12,5 @@ EXPOSE 3306
 CMD ["mysql"]
 
 ENTRYPOINT-["mysql"]
+
+ENV MYSQL_ROOT_PASSWORD =$(Moonlight)
